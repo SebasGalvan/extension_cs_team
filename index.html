@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Extension</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    
+    <link rel="stylesheet" href="/css/style.css">
+
+  </head>
+  <body>
+    <br>
+    <div class="container" >
+                <div class="c_logo">
+                  <img src="img/logo.png" alt="logo" class="logo_empresa">
+                </div>
+
+                <form action="" class="formulario_password">
+                    <!-- <input type="password" name="password" id="password" placeholder="Password"> -->
+
+                    <div class="c_pass_inp">
+                      <input type="password" name="password" id="password" placeholder="Password">
+                      <i class="bi bi-eye-slash ojo" id="togglePassword"></i>
+                    </div>
+
+                    <div class="btn_enviar">
+                      <input type="submit" value="Enviar" id="enviar">
+                    </div>
+                </form> 
+
+                <div class="verificacion_serguridad">
+                    <span class="">Seguridad evaluada: </span>
+                    <div class="c_progress_bar">
+                      <span class="progress_bar" id="poco_segura"></span>
+                      <span class="progress_bar" id="media_segura"></span>
+                      <span class="progress_bar" id="segura"></span>
+                      <span class="progress_bar" id="muy_segura"></span>
+                    </div>
+                </div>
+
+
+                <div class="titulo_nivel">
+                  <span>Nivel de seguridad: <span id="txt_lvl_seguridad"></span></span>
+                </div>
+                
+                <div class="condiciones"><span>Al menos: </span></div>
+                <div class="c_condiciones">
+
+                        <div class="cond_interior">
+                          <span id="mayusculas" class="lbl_condiciones">Una mayuscula</span>
+                          <span id="minusculas" class="lbl_condiciones">Una minuscula</span>
+                        </div>
+                        <div class="cond_interior">
+                          <span id="numero" class="lbl_condiciones">Un numero</span>
+                          <span id="size" class="lbl_condiciones">8 caracteres</span>
+                        </div>
+                </div>
+              
+                <div class="algoritmos_col">
+                </div>
+
+                <div class="chrome_store_link">
+                  <a href=""><img  class="logo_rs chrome_lg" src="img/chrome_web_store.png" alt="logo google store"></a>
+                </div>
+<!-- 
+
+                <div class="c_redes">
+                  <a href="" class="link_red_img"><img src="img/png-face.png" alt="logo de facebook" class="logo_rs"></a>
+                  <a href="" class="link_red_img"><img src="img/pngTwiter.png" alt="logo de twitter" class="logo_rs"></a>
+                  <a href="" class="link_red_img"><img src="img/png instagram.png" alt="logo de instagram" class="logo_rs"></a>
+                  <a href="" class="link_red_img"><img src="img/png-google+.png" alt="logo de google" class="logo_rs"></a>
+                </div>
+            -->
+
+
+          </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/back.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
