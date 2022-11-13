@@ -1,0 +1,269 @@
+.listo{
+    color: #fff;
+    background-color: #83c5be;
+    border: 1px solid #43aa8b;
+    border-radius: 10px;
+    margin-top: 3px;
+    padding: 4px 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.falta{
+    color: #fff;
+    background-color: #f07167;
+    border: 1px solid #ef233c;
+    border-radius: 15px;
+    margin-top: 3px;
+    /* padding: 6px 8px;
+    text-align: center; */
+
+    padding: 4px 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.todoOK{
+    visibility: hidden;
+}
+
+.logo_empresa{
+    width: 80%;
+}
+
+body{
+    width: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c_progress_bar
+{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 280px;
+}
+
+.progress_bar
+{   
+    width: 100%;
+    height: 4px;
+    background: #ccc;
+    border-radius: 15px;
+    margin-right: 2px;
+}
+
+.logo_rs
+{
+    width: 30%;
+}
+
+.c_redes
+{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.link_red_img
+{
+    display: flex;
+    justify-content: center;
+}
+
+.chrome_store_link{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo_nivel,
+.condiciones,
+.c_condiciones,
+.algoritmos_col
+{
+    display: flex;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.cond_interior{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+}
+
+.algoritmos_col
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.verificacion_serguridad
+{
+    margin-top: 30px;
+}
+
+.formulario_password
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.c_logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+#password
+{
+    width: 270px;
+    /* height: 15px; */
+}
+
+#enviar
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #0077b6;
+    color: #fff;
+    cursor: pointer;
+}
+
+#enviar:hover
+{
+    background-color: #59b2e2;
+}
+
+#password
+{
+    width: 290px;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #0077b6 ;
+}
+
+
+.c_pass_inp
+{
+    display: flex;
+    width: 280px;
+}
+
+.ojo
+{
+    margin-left: -20px;
+    margin-top: 12.5px;
+}
+
+.btn_enviar
+{
+    width: 290px;
+}
+
+.chrome_lg
+{
+    width: 150px;
+}
+
+.poco_segura_acvt
+{
+    width: 25%;
+    height: 4px;
+    border-radius: 15px;
+    margin-right: 2px;
+    background-color: #e63946;
+}
+
+.media_segura_acvt
+{
+    width: 25%;
+    height: 4px;
+    border-radius: 15px;
+    margin-right: 2px;
+    background-color: #ffb703 ;
+}
+
+.segura_acvt
+{
+    width: 25%;
+    height: 4px;
+    border-radius: 15px;
+    margin-right: 2px;
+    background-color: #43aa8b;
+}
+.muy_segura_acvt
+{
+    width: 25%;
+    height: 4px;
+    border-radius: 15px;
+    margin-right: 2px;
+    background-color: #277da1;
+}
+
+.progres_basic
+{
+    width: 25%;
+    background: #ccc;
+}
+
+.c_condiciones
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.row
+{
+    height: 22px;
+    /* border: 1px solid #ccc; */
+    border-radius: 15px;
+}
+
+
+
+.poco_segura_txt
+{
+    color: #e63946;
+}
+.media_segura_txt
+{
+    color: #ffb703 ;
+}
+
+.segura_txt
+{
+    color: #43aa8b;
+}
+
+.muy_segura_txt
+{
+    color: #277da1;
+}
+
+
+.lbl_condiciones
+{
+    height: 15px;
+    color: #333;
+    background-color: #778da9 0.5;
+    border: 1px solid #415a77;
+    border-radius: 10px;
+    margin-top: 3px;
+    padding: 4px 5px;
+    width: 100px;
+    text-align: center;
+}
