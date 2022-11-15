@@ -85,6 +85,7 @@ body{
 .condiciones,
 .c_condiciones,
 .algoritmos_col
+.algo_labels
 {
     display: flex;
     margin-top: 20px;
@@ -266,4 +267,11 @@ body{
     padding: 4px 5px;
     width: 100px;
     text-align: center;
+}
+
+.container_algo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
