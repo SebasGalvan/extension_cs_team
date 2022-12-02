@@ -31,6 +31,8 @@ enviar.setAttribute('disabled',true);
 in_password.addEventListener('keyup', cambiar)
 
 function cambiar(e) {
+    
+    reset()
 
     const verificacion = [] 
     const letrasMayusculas= /[A-Z]/g
