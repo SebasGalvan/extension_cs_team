@@ -271,7 +271,44 @@ body{
 
 .container_algo
 {
+
+    margin-top: 15px ;
     display: flex;
+    width: 90%;
     flex-direction: column;
     align-items: center;
+}
+
+.contenedor_bts
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn_hash{
+    padding: 3px 9px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #0077b6;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+#area
+{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(232, 231, 231);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    color: #43aa8b;
+    font-family: 'Consola';
+    font-size: small;
 }
